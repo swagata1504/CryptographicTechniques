@@ -1,7 +1,8 @@
-##Cryptographic Techniques
+## Cryptographic Techniques
 Made python programs that uses RSA public-key cryptosystem to encrypt and decrypt keys for the security class (CS365). Additionally used double transposition to encrypt and decrypt messages that uses keys. 
 
 What do the files do:
+
 -- generatePPkeys.py: This program generates public and private keys. It will ask the user for the primes used and write the keys to public-key.txt & private-key.txt. It was just included incase you want to change the keys provided.
 
 -- public-key.txt : Has Bob's public key generated with p = 131 & q = 71. Can be changed with generatePPkeys.py. Is used to encrypt the keys.
